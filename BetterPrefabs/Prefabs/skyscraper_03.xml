@@ -1,0 +1,3 @@
+<prefab>
+	<set xpath="/prefab/property[@name='EditorGroups']/@value">downtown,residentialOld,residentialNew,commercial,industrial,rural</set>
+</prefab>

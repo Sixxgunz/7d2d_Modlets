@@ -1,45 +1,9 @@
 <configs>
-	<!--Custom Level Requirements for Attributes and Perk System -->
-	<!--These values at the end of each line can be set to any level you wish the player to unlock attribute placement.-->
-	
-	<!--Perception-->
-	<set xpath="/progression/attributes/attribute[@name='attPerception']/level_requirements[@level='4']/@value">5</set>
-	<set xpath="/progression/attributes/attribute[@name='attPerception']/level_requirements[@level='5']/@value">10</set>
-	<set xpath="/progression/attributes/attribute[@name='attPerception']/level_requirements[@level='6']/@value">15</set>
-	<set xpath="/progression/attributes/attribute[@name='attPerception']/level_requirements[@level='7']/@value">20</set>
-	<set xpath="/progression/attributes/attribute[@name='attPerception']/level_requirements[@level='8']/@value">25</set>
-	<set xpath="/progression/attributes/attribute[@name='attPerception']/level_requirements[@level='9']/@value">30</set>
-	<set xpath="/progression/attributes/attribute[@name='attPerception']/level_requirements[@level='10']/@value">35</set>
-	<!--Strength-->
-	<set xpath="/progression/attributes/attribute[@name='attStrength']/level_requirements[@level='4']/@value">5</set>
-	<set xpath="/progression/attributes/attribute[@name='attStrength']/level_requirements[@level='5']/@value">10</set>
-	<set xpath="/progression/attributes/attribute[@name='attStrength']/level_requirements[@level='6']/@value">15</set>
-	<set xpath="/progression/attributes/attribute[@name='attStrength']/level_requirements[@level='7']/@value">20</set>
-	<set xpath="/progression/attributes/attribute[@name='attStrength']/level_requirements[@level='8']/@value">25</set>
-	<set xpath="/progression/attributes/attribute[@name='attStrength']/level_requirements[@level='9']/@value">30</set>
-	<set xpath="/progression/attributes/attribute[@name='attStrength']/level_requirements[@level='10']/@value">35</set>
-	<!--Fortitude-->
-	<set xpath="/progression/attributes/attribute[@name='attFortitude']/level_requirements[@level='4']/@value">5</set>
-	<set xpath="/progression/attributes/attribute[@name='attFortitude']/level_requirements[@level='5']/@value">10</set>
-	<set xpath="/progression/attributes/attribute[@name='attFortitude']/level_requirements[@level='6']/@value">15</set>
-	<set xpath="/progression/attributes/attribute[@name='attFortitude']/level_requirements[@level='7']/@value">20</set>
-	<set xpath="/progression/attributes/attribute[@name='attFortitude']/level_requirements[@level='8']/@value">25</set>
-	<set xpath="/progression/attributes/attribute[@name='attFortitude']/level_requirements[@level='9']/@value">30</set>
-	<set xpath="/progression/attributes/attribute[@name='attFortitude']/level_requirements[@level='10']/@value">35</set>
-	<!--Agility-->
-	<set xpath="/progression/attributes/attribute[@name='attAgility']/level_requirements[@level='4']/@value">5</set>
-	<set xpath="/progression/attributes/attribute[@name='attAgility']/level_requirements[@level='5']/@value">10</set>
-	<set xpath="/progression/attributes/attribute[@name='attAgility']/level_requirements[@level='6']/@value">15</set>
-	<set xpath="/progression/attributes/attribute[@name='attAgility']/level_requirements[@level='7']/@value">20</set>
-	<set xpath="/progression/attributes/attribute[@name='attAgility']/level_requirements[@level='8']/@value">25</set>
-	<set xpath="/progression/attributes/attribute[@name='attAgility']/level_requirements[@level='9']/@value">30</set>
-	<set xpath="/progression/attributes/attribute[@name='attAgility']/level_requirements[@level='10']/@value">35</set>
-	<!--Intellect-->
-	<set xpath="/progression/attributes/attribute[@name='attIntellect']/level_requirements[@level='4']/@value">5</set>
-	<set xpath="/progression/attributes/attribute[@name='attIntellect']/level_requirements[@level='5']/@value">10</set>
-	<set xpath="/progression/attributes/attribute[@name='attIntellect']/level_requirements[@level='6']/@value">15</set>
-	<set xpath="/progression/attributes/attribute[@name='attIntellect']/level_requirements[@level='7']/@value">20</set>
-	<set xpath="/progression/attributes/attribute[@name='attIntellect']/level_requirements[@level='8']/@value">25</set>
-	<set xpath="/progression/attributes/attribute[@name='attIntellect']/level_requirements[@level='9']/@value">30</set>
-	<set xpath="/progression/attributes/attribute[@name='attIntellect']/level_requirements[@level='10']/@value">35</set>
+		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='4']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">5</set>
+		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='5']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">10</set>
+		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='6']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">15</set>
+		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='7']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">20</set>
+		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='8']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">25</set>
+		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='9']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">30</set>
+		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='10']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">35</set>
 </configs>
