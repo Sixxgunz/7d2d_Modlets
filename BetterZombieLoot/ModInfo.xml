@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="BetterZombieLoot" />
+        <Description value="Increased drop rates for all Zombie loot bags to 15%" />
+        <Author value="SixxGunZ(Credits to elucidus for original concept to work with.)" />
+        <Version value="0.0.1" />
+    </ModInfo>
+</xml>

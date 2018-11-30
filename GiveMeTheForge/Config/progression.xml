@@ -1,0 +1,6 @@
+<configs>
+	<!--Forge Level and Attribute value Requirements If you modify these values make sure to change both numerical values to reflect the same number-->
+	<!--value 3 and desc_key coincide with whatever level requirements you have set in the attributes level requirements-->
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='1']/requirement[@name='ProgressionLevel']/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='1']/requirement[@name='ProgressionLevel']/@desc_key">reqIntellectLevel3</set>
+</configs>
