@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<set xpath="/items/item[@name='resourceWood']/property[@name='LootExpValue']/@value">180</set>
+	<set xpath="/items/item[@name='resourceForgedIron']/property[@name='CraftingIngredientExp']/@value">540</set>
+	<set xpath="/items/item[@name='resourceForgedSteel']/property[@name='CraftingIngredientExp']/@value">720</set>
+	<set xpath="/items/item[@name='resourceScrapPolymers']/property[@name='CraftingIngredientExp']/@value">720</set>
+	<set xpath="/items/item[@name='resourceOilShale']/property[@name='CraftingIngredientExp']/@value">180</set>
+	<set xpath="/items/item[@name='resourceMilitaryFiber']/property[@name='CraftingIngredientExp']/@value">540</set>
+	<set xpath="/items/item[@name='resourceElectricParts']/property[@name='CraftingIngredientExp']/@value">720</set>
+	<set xpath="/items/item[@name='resourceMechanicalParts']/property[@name='CraftingIngredientExp']/@value">720</set>
+	<set xpath="/items/item[@name='resourceInsulator']/property[@name='CraftingIngredientExp']/@value">720</set>
+</configs>
