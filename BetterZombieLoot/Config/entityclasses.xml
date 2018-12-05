@@ -1,3 +1,0 @@
-<configs>
-<set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='LootDropProb']/@value">.15</set>
-</configs>
