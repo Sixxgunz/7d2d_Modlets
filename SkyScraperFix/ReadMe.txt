@@ -1,0 +1,2 @@
+This will allow sky scrapers to be spawned outside of the default towngroup and give you some better cities.
+Copy these prefab xml files into your servers or client installation Prefabs folder and overwrite the old ones.
