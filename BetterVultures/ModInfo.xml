@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="BetterVultures" />
-		<Description value="Adjusts behaviour/reach/dmg for vultures and removes radiated vultures until console errors and lag issues during bloodmoons are fixed." />
-		<Author value="SixxGunZ(Credits to Jax for his behaviour settings.)" />
-		<Version value="0.0.1" />
-	</ModInfo>
-</xml>
