@@ -1,0 +1,8 @@
+<configs>
+	<!--Default values are set to '0.5' - Feel free to modify as you see fit-->
+	<set xpath="/entity_classes/entity_class/effect_group/passive_effect[@operation='base_set' and @tags='allHarvest']/@value">3.5</set>
+	<set xpath="/entity_classes/entity_class/effect_group/passive_effect[@operation='base_set' and @tags='allToolsHarvest']/@value">3.5</set>
+	<set xpath="/entity_classes/entity_class/effect_group/passive_effect[@operation='base_set' and @tags='oreWoodHarvest']/@value">3.5</set>
+	<set xpath="/entity_classes/entity_class/effect_group/passive_effect[@operation='base_set' and @tags='cropHarvest']/@value">3.5</set>
+	<set xpath="/entity_classes/entity_class/effect_group/passive_effect[@operation='base_set' and @tags='wildCropsHarvest']/@value">3.5</set>
+</configs>

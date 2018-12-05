@@ -1,0 +1,569 @@
+<configs>
+
+<!-- Experience amount per level, increment multiplier increase per level, skill points per level  - Feel free to modify as you see fit-->
+	<set xpath="/progression/level/@exp_to_level">8000</set>
+	<set xpath="/progression/level/@experience_multiplier">1.0007</set>
+	<set xpath="/progression/level/@skill_points_per_level">5</set>
+	
+<!-- In Depth attribute / perk system-->
+
+<!--Perception-->
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attP')]/level_requirements[@level='4']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">5</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attP')]/level_requirements[@level='5']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">10</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attP')]/level_requirements[@level='6']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">15</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attP')]/level_requirements[@level='7']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">20</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attP')]/level_requirements[@level='8']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">25</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attP')]/level_requirements[@level='9']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">30</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attP')]/level_requirements[@level='10']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">35</set>
+
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkGunslinger']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkShotgunMessiah']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkAutomaticWeapons']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>	
+	
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkDeadEye']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>	
+	
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkArchery']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>	
+	
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkExplosiveWeapons']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>	
+
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkHeadshot']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkRunAndGun']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>	
+	
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkLuckyLooter']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>	
+	
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='1']/requirement/@desc_key">reqPerceptionLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='2']/requirement/@desc_key">reqPerceptionLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='3']/requirement/@desc_key">reqPerceptionLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='4']/requirement/@desc_key">reqPerceptionLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkSalvageOperations']/level_requirements[@level='5']/requirement/@desc_key">reqPerceptionLevel5</set>
+	
+<!--Strength-->
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attS')]/level_requirements[@level='4']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">5</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attS')]/level_requirements[@level='5']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">10</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attS')]/level_requirements[@level='6']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">15</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attS')]/level_requirements[@level='7']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">20</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attS')]/level_requirements[@level='8']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">25</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attS')]/level_requirements[@level='9']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">30</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attS')]/level_requirements[@level='10']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">35</set>
+
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkWreckingCrew']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>	
+
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkSexualTrex']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkFlurryOfBlows']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkDeepCuts']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>	
+	
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkStayDown']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyMetal']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkSkullCrusher']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkMiner69r']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkPackMule']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='1']/requirement/@desc_key">reqStrengthLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='2']/requirement/@desc_key">reqStrengthLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='3']/requirement/@desc_key">reqStrengthLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='4']/requirement/@desc_key">reqStrengthLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkMotherLode']/level_requirements[@level='5']/requirement/@desc_key">reqStrengthLevel5</set>
+	
+<!--Fortitude-->
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attF')]/level_requirements[@level='4']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">5</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attF')]/level_requirements[@level='5']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">10</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attF')]/level_requirements[@level='6']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">15</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attF')]/level_requirements[@level='7']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">20</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attF')]/level_requirements[@level='8']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">25</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attF')]/level_requirements[@level='9']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">30</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attF')]/level_requirements[@level='10']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">35</set>
+
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkHeavyArmor']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkTheHuntsman']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkIntrinsicImmunity']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkWellInsulated']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkPainTolerance']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkHealingFactor']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkFullyHydrated']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='1']/requirement/@desc_key">reqFortitudeLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='2']/requirement/@desc_key">reqFortitudeLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='3']/requirement/@desc_key">reqFortitudeLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='4']/requirement/@desc_key">reqFortitudeLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkSelfMedicated']/level_requirements[@level='5']/requirement/@desc_key">reqFortitudeLevel5</set>
+
+<!--Agility-->
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attA')]/level_requirements[@level='4']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">5</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attA')]/level_requirements[@level='5']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">10</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attA')]/level_requirements[@level='6']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">15</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attA')]/level_requirements[@level='7']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">20</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attA')]/level_requirements[@level='8']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">25</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attA')]/level_requirements[@level='9']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">30</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attA')]/level_requirements[@level='10']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">35</set>
+
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkRuleOneCardio']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkLightArmor']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel5</set>
+
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkChargingBull']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkParkour']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkOlympicSwimmer']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkNinjaMovement']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkHiddenStrike']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='1']/requirement/@desc_key">reqAgilityLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='2']/requirement/@desc_key">reqAgilityLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='3']/requirement/@desc_key">reqAgilityLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='4']/requirement/@desc_key">reqAgilityLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkFromTheShadows']/level_requirements[@level='5']/requirement/@desc_key">reqAgilityLevel5</set>
+
+<!--Intellect-->
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attI')]/level_requirements[@level='4']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">5</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attI')]/level_requirements[@level='5']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">10</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attI')]/level_requirements[@level='6']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">15</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attI')]/level_requirements[@level='7']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">20</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attI')]/level_requirements[@level='8']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">25</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attI')]/level_requirements[@level='9']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">30</set>
+	<set xpath="/progression/attributes/attribute[starts-with(@name, 'attI')]/level_requirements[@level='10']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">35</set>
+
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='4']/requirement/@value">4</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='1']/requirement/@desc_key">reqIntellectLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='2']/requirement/@desc_key">reqIntellectLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='3']/requirement/@desc_key">reqIntellectLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkHammerForge']/level_requirements[@level='4']/requirement/@desc_key">reqIntellectLevel4</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='1']/requirement/@desc_key">reqIntellectLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='2']/requirement/@desc_key">reqIntellectLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='3']/requirement/@desc_key">reqIntellectLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='4']/requirement/@desc_key">reqIntellectLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkGreaseMonkey']/level_requirements[@level='5']/requirement/@desc_key">reqIntellectLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='1']/requirement/@desc_key">reqIntellectLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='2']/requirement/@desc_key">reqIntellectLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='3']/requirement/@desc_key">reqIntellectLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='4']/requirement/@desc_key">reqIntellectLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/level_requirements[@level='5']/requirement/@desc_key">reqIntellectLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='1']/requirement/@desc_key">reqIntellectLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='2']/requirement/@desc_key">reqIntellectLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='3']/requirement/@desc_key">reqIntellectLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='4']/requirement/@desc_key">reqIntellectLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkYeahScience']/level_requirements[@level='5']/requirement/@desc_key">reqIntellectLevel5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='1']/requirement/@value">1</set>
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='2']/requirement/@value">2</set>
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='3']/requirement/@value">3</set>
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='4']/requirement/@value">4</set>
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='5']/requirement/@value">5</set>
+	
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='1']/requirement/@desc_key">reqIntellectLevel1</set>
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='2']/requirement/@desc_key">reqIntellectLevel2</set>
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='3']/requirement/@desc_key">reqIntellectLevel3</set>
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='4']/requirement/@desc_key">reqIntellectLevel4</set>
+	<set xpath="/progression/perks/perk[@name='perkPhysician']/level_requirements[@level='5']/requirement/@desc_key">reqIntellectLevel5</set>
+
+</configs>
