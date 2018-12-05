@@ -1,9 +1,0 @@
-<configs>
-		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='4']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">5</set>
-		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='5']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">10</set>
-		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='6']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">15</set>
-		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='7']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">20</set>
-		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='8']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">25</set>
-		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='9']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">30</set>
-		<set xpath="/progression/attributes/attribute[starts-with(@name, 'att')]/level_requirements[@level='10']/requirement[@name='PlayerLevel' and @operation='GTE']/@value">35</set>
-</configs>
