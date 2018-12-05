@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<xml>
-	<ModInfo>
-		<Name value="SixtySecondsOfTrauma" />
-		<Description value="Reduces Trauma buff to 60 seconds and a multiplier of 30 seconds each time after if buff is still there." />
-		<Author value="SixxGunZ" />
-		<Version value="0.0.1" />
-	</ModInfo>
-</xml>
