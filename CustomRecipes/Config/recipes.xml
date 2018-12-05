@@ -1,0 +1,34 @@
+<configs>
+
+<!-- Custom Recipes -->
+
+<!-- Lets make Acid and MegaCrush craftable.  Awesome sauce.-->
+<append xpath="/recipes">
+<recipe name="resourceAcid" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="drinkCanMegaCrush" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
+	<ingredient name="resourceAcid" count="1"/>
+	<ingredient name="resourceCropCoffeeBeans" count="1"/>
+	<ingredient name="drinkJarGoldenRodTea" count="1"/>
+</recipe>
+</append>
+
+<!-- Hardened Chest - using similar settings from gun safe recipe.-->
+<append xpath="/recipes">
+<recipe name="cntHardenedChestSecure" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedSteel" count="20"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+</recipe>
+<recipe name="cntLootChestHero" count="1" craft_area="workbench">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceSpring" count="5"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+</recipe>
+</append>
+
+</configs>
+
+
