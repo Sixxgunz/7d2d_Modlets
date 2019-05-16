@@ -1,5 +1,5 @@
 <configs>
 
-<set xpath="/blocks/block[@name='cntHardenedChestSecure']/property[@class='RepairItems']/property/@name">resourceForgedSteel</set>
+<set xpath="/blocks/block[@name='cntHardenedChestSecure']/property[@class='RepairItems']/property/@name">resourceForgedIron</set>
 
 </configs>
