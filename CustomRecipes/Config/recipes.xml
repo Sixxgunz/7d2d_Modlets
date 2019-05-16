@@ -22,7 +22,7 @@
 	<ingredient name="resourceMechanicalParts" count="5"/>
 </recipe>
 <recipe name="cntLootChestHero" count="1" craft_area="workbench">
-	<ingredient name="resourceIron" count="15"/>
+	<ingredient name="resourceScrapIron" count="15"/>
 	<ingredient name="resourceSpring" count="3"/>
 	<ingredient name="resourceMechanicalParts" count="3"/>
 </recipe>
